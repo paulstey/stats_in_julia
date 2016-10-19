@@ -1,0 +1,20 @@
+
+1. Go to this Github repository:
+   https://github.com/paulstey/stats_in_julia/
+
+2. Download the repository as a .zip file
+3. Unzip the contents somewhere you can easily find them (e.g., Desktop)
+4. Go to juliabox.com
+5. Log in using your Brown e-mail (or some other G-mail account)
+6. Upload the contents of the unzipped repository to JuliaBox
+7. 
+
+Pkg.add(“DataFrames”)
+Pkg.add(“Datasets”)
+Pkg.add(“HypothesisTests”)
+Pkg.add(“GLM”)
+Pkg.add(“DecisionTree”)
+Pkg.add(“Lasso”)
+
+
+
