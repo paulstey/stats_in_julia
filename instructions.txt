@@ -1,25 +1,35 @@
 
 1. Go to this Github repository:
-   https://github.com/paulstey/stats_in_julia/
+	https://github.com/paulstey/stats_in_julia/
 
 2. Download the repository as a .zip file
-3. Unzip the contents somewhere you can easily find them (e.g., Desktop)
-4. Go to juliabox.com
-5. Log in using your Brown e-mail (or some other G-mail account)
-6. Upload the contents of the unzipped repository to JuliaBox
-7. 
 
+3. Go to this Github repository:
+	https://github.com/bcbi/Plotting-with-Julia/
 
+4. Download the repo as a .zip file.
 
-Pkg.add(“DataFrames”)
-Pkg.add(“RDatasets”)
-Pkg.add(“HypothesisTests”)
-Pkg.add(“GLM”)
-Pkg.add(“DecisionTree”)
-Pkg.add(“Lasso”)
-Pkg.add(“Plots”)
-Pkg.add(“PyPlot”)
-Pkg.add(“StatPlots”)
+5. Unzip the contents somewhere you can easily find them (e.g., Desktop)
+
+6. Go to juliabox.com
+
+7. Log in using your Brown e-mail (or some other G-mail account)
+
+8. Upload the contents of the unzipped repository to JuliaBox 
+
+9. Start a new notebook with Julia 0.5
+
+10. Run the following commands to add packages from the Julia command line:
+
+	Pkg.add(“DataFrames”)
+	Pkg.add(“RDatasets”)
+	Pkg.add(“HypothesisTests”)
+	Pkg.add(“GLM”)
+	Pkg.add(“DecisionTree”)
+	Pkg.add(“Lasso”)
+	Pkg.add(“Plots”)
+	Pkg.add(“PyPlot”)
+	Pkg.add(“StatPlots”)
 
 
 
