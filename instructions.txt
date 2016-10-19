@@ -9,12 +9,18 @@
 6. Upload the contents of the unzipped repository to JuliaBox
 7. 
 
+
+
 Pkg.add(“DataFrames”)
-Pkg.add(“Datasets”)
+Pkg.add(“RDatasets”)
 Pkg.add(“HypothesisTests”)
 Pkg.add(“GLM”)
 Pkg.add(“DecisionTree”)
 Pkg.add(“Lasso”)
+Pkg.add(“Plots”)
+Pkg.add(“PyPlot”)
+Pkg.add(“StatPlots”)
+
 
 
 
