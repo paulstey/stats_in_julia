@@ -49,10 +49,12 @@ RUN ln -fs /opt/julia-0.5.1 /opt/julia
 # Add user bcbi
 RUN useradd --create-home --home-dir /home/bcbi --shell /bin/bash bcbi
 RUN adduser bcbi sudo
-
+RUN usermod -a -G sudo bcbi
+RUN echo "bcbi ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
 # Configure directories
 RUN mkdir -p /home/bcbi/notebooks
+RUN chown -R bcbi /home/bcbi/notebooks
 VOLUME /home/bcbi/notebooks
 WORKDIR /home/bcbi
 
